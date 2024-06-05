@@ -2,6 +2,11 @@
 
 This component allows users to select and preview an image before uploading it. It also provides functionality to remove or delete the selected image.
 
+## Sample Preview Image
+
+![Preview Image](https://github.com/AroshaRavishan/Image-Select-Component-Vue/blob/main/Sample%20Image.png)
+
+
 ## Props
 
 - **photoPath** (`String`): The URL of the current photo to be displayed. Default is an empty string.
@@ -22,3 +27,4 @@ This component allows users to select and preview an image before uploading it. 
 - **deletePhoto**: Deletes the current photo by calling the specified route.
 - **clearPhotoFileInput**: Clears the file input field.
 - **removeFile**: Removes the selected file and clears the photo preview.
+
